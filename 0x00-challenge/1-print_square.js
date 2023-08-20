@@ -20,5 +20,6 @@ for (let i = 0; i < size; i++) {
     for (let j = 0; j < size; j++) {
         process.stdout.write("#");
     }
-    process.stdout.write("\n");
+    if (i != size - 1)
+        process.stdout.write("\n");
 }
